@@ -1,3 +1,16 @@
+# [2.1.0](https://github.com/kwsoft/sem-rel-npm/compare/v2.0.0...v2.1.0) (2018-08-26)
+
+
+### Bug Fixes
+
+* **release:** jenkins uses origin/release as branch name?! ([29df64d](https://github.com/kwsoft/sem-rel-npm/commit/29df64d))
+* **release:** use consistent plugin ordering ([3e115a2](https://github.com/kwsoft/sem-rel-npm/commit/3e115a2))
+
+
+### Features
+
+* **release:** publish 'version.json' file to dist folder ([f06de08](https://github.com/kwsoft/sem-rel-npm/commit/f06de08))
+
 # [2.0.0](https://github.com/kwsoft/sem-rel-npm/compare/v1.0.0...v2.0.0) (2018-08-26)
 
 
