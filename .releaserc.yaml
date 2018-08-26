@@ -1,13 +1,16 @@
-branch: release
+branch: 'origin/release'
 noCi: true
 npmPublish: false
 
 verifyConditions: 
+  - '@semantic-release/changelog'
   - '@semantic-release/git'
-  - '@semantic-release/changelog'
 prepare:
-  - '@semantic-release/npm'
   - '@semantic-release/changelog'
+  - '@semantic-release/npm'
+  -
+    path: '@semantic-release/exec'
+    cmd: "./update-version-dist.sh ${nextRelease.version}"
   - '@semantic-release/git'
 publish: 
   -
