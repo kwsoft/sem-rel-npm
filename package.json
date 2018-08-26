@@ -6,6 +6,9 @@
   "scripts": {
     "test": "test"
   },
-  "author": "Sam Bernet, K&W Software AG"
-  "license": "ISC"
+  "author": "Sam Bernet, K&W Software AG",
+  "license": "ISC",
+  "devDependencies": {
+    "semantic-release": "^15.9.9"
+  }
 }
