@@ -10,5 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "semantic-release": "^15.9.9"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwsoft/sem-rel-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kwsoft/sem-rel-npm/issues"
+  },
+  "homepage": "https://github.com/kwsoft/sem-rel-npm#readme"
 }
