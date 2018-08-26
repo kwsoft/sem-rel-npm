@@ -3,11 +3,11 @@ noCi: true
 npmPublish: false
 
 verifyConditions: 
+  - '@semantic-release/changelog'
   - '@semantic-release/git'
-  - '@semantic-release/changelog'
 prepare:
-  - '@semantic-release/npm'
   - '@semantic-release/changelog'
+  - '@semantic-release/npm'
   - '@semantic-release/git'
 publish: 
   -
