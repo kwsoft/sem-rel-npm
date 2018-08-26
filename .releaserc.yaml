@@ -1,14 +1,17 @@
 branch: release
-noCi: false
+noCi: true
 
 verifyConditions: 
-  - @semantic-release/git
-  - @semantic-release/changelog
+  - '@semantic-release/git'
+  - '@semantic-release/changelog'
 prepare:
-  - @semantic-release/npm
-  - @semantic-release/changelog
-  - @semantic-release/git
+  - '@semantic-release/npm'
+  - '@semantic-release/changelog'
+  - '@semantic-release/git'
 publish: 
+  -
+    path: '@semantic-release/exec'
+    cmd: "echo 'no publish steps used. We could trigger docker image build here...'"
 success:
   -
     path: '@semantic-release/exec'

@@ -4,11 +4,15 @@
   "description": "semantic release PoC for NPM packages",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "release": "semantic-release"
   },
   "author": "Sam Bernet, K&W Software AG",
   "license": "ISC",
   "devDependencies": {
+    "@semantic-release/changelog": "^3.0.0",
+    "@semantic-release/exec": "^3.1.1",
+    "@semantic-release/git": "^7.0.2",
     "semantic-release": "^15.9.9"
   },
   "dependencies": {},
