@@ -11,16 +11,6 @@ prepare:
   -
     path: '@semantic-release/exec'
     cmd: "./update-version-dist.sh ${nextRelease.version}"
-  - '@semantic-release/git'
-publish: 
   -
-    path: '@semantic-release/exec'
-    cmd: "echo 'no publish steps used. We could trigger docker image build here...'"
-success:
-  -
-    path: '@semantic-release/exec'
-    cmd: "echo 'released!!'"
-fail:
-  -
-    path: '@semantic-release/exec'
-    cmd: "echo 'failed!!'"
+    path: '@semantic-release/git'
+    assets: 'dist/version.json'
