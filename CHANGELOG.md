@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/kwsoft/sem-rel-npm/compare/v3.0.0...v3.0.1) (2018-08-26)
+
+
+### Bug Fixes
+
+* **release:** fix CHANGELOG and git publish ([c03c1d2](https://github.com/kwsoft/sem-rel-npm/commit/c03c1d2))
+
 # [2.1.0](https://github.com/kwsoft/sem-rel-npm/compare/v2.0.0...v2.1.0) (2018-08-26)
 
 
