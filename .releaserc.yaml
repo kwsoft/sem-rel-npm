@@ -8,6 +8,9 @@ verifyConditions:
 prepare:
   - '@semantic-release/changelog'
   - '@semantic-release/npm'
+  -
+    path: '@semantic-release/exec'
+    cmd: "./update-version-dist.sh ${nextRelease.version}"
   - '@semantic-release/git'
 publish: 
   -
