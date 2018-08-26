@@ -1,5 +1,6 @@
 branch: release
 noCi: true
+npmPublish: false
 
 verifyConditions: 
   - '@semantic-release/git'
