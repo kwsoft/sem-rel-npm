@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/kwsoft/sem-rel-npm/compare/v1.0.0...v2.0.0) (2018-08-26)
+
+
+### Bug Fixes
+
+* **npm:** don't publish to NPM ([d6cdd28](https://github.com/kwsoft/sem-rel-npm/commit/d6cdd28))
+
+
+### BREAKING CHANGES
+
+* **npm:** Everybody that used the npm package, please switch to kwpackages. no more releases on NPM!
+
 # 1.0.0 (2018-08-26)
 
 
