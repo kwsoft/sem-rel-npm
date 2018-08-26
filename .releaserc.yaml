@@ -1,5 +1,4 @@
 branch: release
-noCi: true
 npmPublish: false
 
 verifyConditions: 
