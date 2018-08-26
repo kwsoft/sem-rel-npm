@@ -1,4 +1,4 @@
-branch: release
+branch: 'origin/release'
 noCi: true
 npmPublish: false
 
