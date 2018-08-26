@@ -1,0 +1,11 @@
+{
+  "name": "sem-rel-npm",
+  "version": "1.0.0",
+  "description": "semantic release PoC for NPM packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Sam Bernet, K&W Software AG"
+  "license": "ISC"
+}
