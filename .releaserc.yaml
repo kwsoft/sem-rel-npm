@@ -1,0 +1,19 @@
+branch: release
+noCi: false
+
+verifyConditions: 
+  - @semantic-release/git
+  - @semantic-release/changelog
+prepare:
+  - @semantic-release/npm
+  - @semantic-release/changelog
+  - @semantic-release/git
+publish: 
+success:
+  -
+    path: '@semantic-release/exec'
+    cmd: "echo 'released!!'"
+fail:
+  -
+    path: '@semantic-release/exec'
+    cmd: "echo 'failed!!'"
