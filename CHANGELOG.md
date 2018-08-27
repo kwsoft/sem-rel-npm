@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/kwsoft/sem-rel-npm/compare/v3.0.1...v4.0.0) (2018-08-27)
+
+
+### Features
+
+* **dependencies:** add angular-cli ([2a2e85d](https://github.com/kwsoft/sem-rel-npm/commit/2a2e85d)), closes [#4323](https://github.com/kwsoft/sem-rel-npm/issues/4323)
+
+
+### BREAKING CHANGES
+
+* **dependencies:** Use angular-cli (`ng test`) instead of directly running npm scripts.
+
 ## [3.0.1](https://github.com/kwsoft/sem-rel-npm/compare/v3.0.0...v3.0.1) (2018-08-26)
 
 
