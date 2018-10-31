@@ -5,3 +5,6 @@
 Playing around with [Semantic Release](https://github.com/semantic-release/semantic-release), showcasing how to configure it for a simple use case integrating with this GitHub repo.
 
 This is a basic NPM repo with stupid, senseless commits, used to test the NPM plugin and see what it does.
+
+It uses [conventional changelog] format for commit messages, and supports commitizen. 
+To commit your staged changes, use `npm run commit` (or just `git cz` if you have commitizen installed globally).
