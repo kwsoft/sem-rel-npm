@@ -1,6 +1,6 @@
 {
   "name": "sem-rel-npm",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "semantic release PoC for NPM packages",
   "main": "index.js",
   "scripts": {

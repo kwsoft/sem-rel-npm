@@ -1,3 +1,12 @@
+# [4.1.0](https://github.com/kwsoft/sem-rel-npm/compare/v4.0.0...v4.1.0) (2018-10-31)
+
+
+### Features
+
+* **commitizen:** add 'commit' npm script ([e9a9351](https://github.com/kwsoft/sem-rel-npm/commit/e9a9351))
+* **commitizen:** add commitizen dev-dep ([46e0b9b](https://github.com/kwsoft/sem-rel-npm/commit/46e0b9b))
+* **commitizen:** conventional-changelog ([490c29a](https://github.com/kwsoft/sem-rel-npm/commit/490c29a))
+
 # [4.0.0](https://github.com/kwsoft/sem-rel-npm/compare/v3.0.1...v4.0.0) (2018-08-27)
 
 
