@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "commit": "git-cz"
   },
   "author": "Sam Bernet, K&W Software AG",
   "license": "ISC",
