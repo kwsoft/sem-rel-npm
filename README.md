@@ -6,5 +6,7 @@ Playing around with [Semantic Release](https://github.com/semantic-release/seman
 
 This is a basic NPM repo with stupid, senseless commits, used to test the NPM plugin and see what it does.
 
-It uses [conventional changelog] format for commit messages, and supports commitizen. 
+It uses [conventional changelog] format for commit messages, and supports commitizen.
 To commit your staged changes, use `npm run commit` (or just `git cz` if you have commitizen installed globally).
+
+Adi is bugging me again with his (_thoughtful_ he says) questions!!!
