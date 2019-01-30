@@ -1,3 +1,10 @@
+# [4.3.0](https://github.com/kwsoft/sem-rel-npm/compare/v4.2.0...v4.3.0) (2019-01-30)
+
+
+### Features
+
+* **semantic release:** remove project name ([afb4980](https://github.com/kwsoft/sem-rel-npm/commit/afb4980)), closes [#6051](https://github.com/kwsoft/sem-rel-npm/issues/6051)
+
 # [4.2.0](https://github.com/kwsoft/sem-rel-npm/compare/v4.1.0...v4.2.0) (2019-01-30)
 
 
