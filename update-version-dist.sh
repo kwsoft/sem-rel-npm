@@ -7,6 +7,7 @@ mkdir -p dist
 
 cat > ./dist/version.json <<- EOF
 {
+    "project": "sem-rel-npm",
     "version": "$RELEASE_VERSION"
 }
 EOF
