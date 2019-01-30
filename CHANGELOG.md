@@ -1,3 +1,10 @@
+# [4.2.0](https://github.com/kwsoft/sem-rel-npm/compare/v4.1.0...v4.2.0) (2019-01-30)
+
+
+### Features
+
+* **version.json:** add project name to version.json ([369b9aa](https://github.com/kwsoft/sem-rel-npm/commit/369b9aa)), closes [#544](https://github.com/kwsoft/sem-rel-npm/issues/544)
+
 # [4.1.0](https://github.com/kwsoft/sem-rel-npm/compare/v4.0.0...v4.1.0) (2018-10-31)
 
 
